@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/tax-regulations",
   "title": "Tax Regulations",
   "description": "Tax Regulations MCP — US Treasury / IRS regulations (26 CFR, 'Treas. Reg.').",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/tax-regulations",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-tax-regulations",

@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-tax-regulations",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tax Regulations MCP — US Treasury / IRS regulations (26 CFR, 'Treas. Reg.').",
   "type": "module",
   "main": "src/index.ts",
