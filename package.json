@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-tax-regulations",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tax Regulations MCP — US Treasury / IRS regulations (26 CFR, 'Treas. Reg.').",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-tax-regulations": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "tax-regulations"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-tax-regulations"
+    "url": "git+https://github.com/pipeworx-io/mcp-tax-regulations.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-a4a370c3cb0079c9036bb1e589e23aa66308e7be7899d97aea2e9612d27f04e4",
+    "sourceCommit": "00c836ddeaecbdd581dcfb0fb1842efea104006e"
   }
 }
