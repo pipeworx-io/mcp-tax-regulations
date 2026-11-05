@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-tax-regulations",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tax Regulations MCP — US Treasury / IRS regulations (26 CFR, 'Treas. Reg.').",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "tax-regulations",
     "gatewaySlug": "tax-regulations",
-    "sourceHash": "v1-bb59b95a55817ecc7cc5838ef5510a35290d474b5561914a2545a4833d26fd6b",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-8344521f02e37e522d13624205c62a9d17ab378eeab8214c4795432dbe34a204",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
